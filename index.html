@@ -24,23 +24,23 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Bio <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#bio">Bio <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Publications</a>
+          <a class="nav-link" href="#publications">Publications</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CV</a>
+          <a class="nav-link" target="_blank" href="assets/cv.pdf">CV</a>
         </li>
       </ul>
     </div>
   </nav>
 
   <div class="container">
-    <div class="jumbotron jumbotron-fluid">
+    <div id="bio" class="jumbotron jumbotron-fluid">
       <div class="text-center">
         <img src="assets/me.jpg" class="img-thumbnail center" width="200" height="300"/>
         <br/>
@@ -62,9 +62,24 @@
     </h5>
     
     <hr>
-    <h3>
+
+    <h3 id="publications">
       Publications
     </h3>
+    <di class="publications">
+      <div id="pub1">
+        <h5 class="text-success">A Low Latency and Cellular Control Plane <a target="_blank" class="text-danger" href="https://dl.acm.org/doi/10.1145/3387514.3406218">[PDF]</a></h5>
+        <h5>Mukhtiar Ahmad, Syed Usman Jafri, Azam Ikram, Wasiq Noor Ahmad Qasmi, <b>Muhammad Ali Nawazish</b>, Zartash Uzmi, and Zafar Ayyub Qazi.</h5>
+        <h5 class="text-danger">SIGCOMM 2020</h5>
+      </div>
+      <br>
+      <div id="pub2">
+        <h5 class="text-success">Fast EPC: A Low Latency Cellular Control Plane <a target="_blank" class="text-danger" href="https://dl.acm.org/doi/10.1145/3342280.3342324">[PDF]</a></h5>
+        <h5>Mukhtiar Ahmad, Wasiq Noor Ahmad Qasmi, Syed Usman Jafri, Ridah Naseem, <b>Muhammad Ali Nawazish</b>, Muhammed Azam Ikram, Zartash Uzmi, and Zafar Ayyub Qazi.</h5>
+        <h5 class="text-danger">SIGCOMM 2019 (Poster)</h5>
+      </div>
+    </di>
+
 
   </div>
 
