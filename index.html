@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Ali Nawazish</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/flatly/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/simplex/bootstrap.min.css" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -28,10 +28,13 @@
           <a class="nav-link" href="#bio">Bio <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#news">News</span></a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#publications">Publications</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" target="_blank" href="assets/cv.pdf">CV</a>
@@ -47,8 +50,10 @@
         <br/>
         <br/>
         <h4>Syed Muhammad Ali Nawazish</h4>
-        <h6>Research Associate @ <a target="_blank" href="https://lums.edu.pk/">LUMS</a></h6>
+        <h6>Ph.D student @ <a target="_blank" href="https://www.utah.edu/">University of Utah</a></h6>
+        <h6><a href="mailto:nawazish@cs.utah.edu">nawazish@cs.utah.edu</a></h6>
         <a target="_blank" href="https://www.linkedin.com/in/ali-nawazish-b18b98177/"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a target="_blank" href="https://github.com/AliNawazish"><i class="fab fa-github fa-2x"></i></a>
       </div>
       <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
       <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
@@ -58,30 +63,73 @@
     </div>
 
     <h5>
-      I am a research associate at <a target="_blank" href="https://sbasse.lums.edu.pk/department-of-computer-science">Computer Science department</a> at <a target="_blank" href="https://lums.edu.pk/">LUMS</a>, Pakistan. My areas of interests are distributed systems, networks and 5G communication networks.
-      I am working under the supervision of <a target="_blank" href="https://web.lums.edu.pk/~zafar/">Dr. Zafar Ayyub Qazi</a> and <a target="_blank" href="http://www.u.arizona.edu/~taqi/">Dr. Taqi Raza</a>.
+      I am a first-year Ph.D. student at <a target="_blank" href="https://www.cs.utah.edu/">School of Computing - The University of Utah</a>. I am working with <a target="_blank" href="https://www.cs.utah.edu/~kobus/">Dr. Jacobus (Kobus) Van der Merwe</a>. My areas of interests are distributed systems, networks and 5G communication networks. <br/><br/>
+      Before coming for Ph.D., I was working as a research assistant at <a target="_blank" href="https://sbasse.lums.edu.pk/department-of-computer-science"></a>Computer Science department</a> at <a href="https://lums.edu.pk/">LUMS</a>, Pakistan. I was working with <a target="_blank" href="https://web.lums.edu.pk/~zafar/">Dr. Zafar Ayyub Qazi</a> and <a target="_blank" href="http://www.u.arizona.edu/~taqi/">Dr. Taqi Raza</a>.
     </h5>
     
+    <hr>
+
+    <h3 id="news">
+      News
+    </h3>
+    <di class="news">
+      <ul class="h4">
+        <li><span class="font-weight-bold">September, 2022:</span> Our work on accelerating applications over 5G is accepted to <a target="_blank" href="https://conferences2.sigcomm.org/co-next/2022/#!/home">CoNEXT 2022.</a></li>
+        <li><span class="font-weight-bold">August, 2022:</span> Our work on low latency and consistent cellular control plane is expected to appear in <a target="_blank" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90">IEEE/ACM Transactions on Networking, 2022.</a></li>
+      </ul>
+    </di>
+
     <hr>
 
     <h3 id="publications">
       Publications
     </h3>
-    <di class="publications">
+    <div class="publications">
       <div id="pub1">
-        <h5 class="text-success">A Low Latency and Cellular Control Plane <a target="_blank" class="text-danger" href="https://dl.acm.org/doi/10.1145/3387514.3406218">[PDF]</a></h5>
-        <h5>Mukhtiar Ahmad, Syed Usman Jafri, Azam Ikram, Wasiq Noor Ahmad Qasmi, <b>Muhammad Ali Nawazish</b>, Zartash Uzmi, and Zafar Ayyub Qazi.</h5>
-        <h5 class="text-danger">SIGCOMM 2020</h5>
+        <h5 class="text-success">Enabling Emerging Edge Applications Through a 5G Control Plane Intervention  <a target="_blank"  href="">[PDF]</a></h5>
+        <h5>Mukhtiar Ahmad, <b>Muhammad Ali Nawazish</b>, Taimoor Tariq, Basit Iqbal, Taqi Raza, Zafar Ayyub Qazi</h5>
+        <h5 class="text-danger">To appear in ACM CoNEXT 2022</h5>
       </div>
       <br>
       <div id="pub2">
-        <h5 class="text-success">Fast EPC: A Low Latency Cellular Control Plane <a target="_blank" class="text-danger" href="https://dl.acm.org/doi/10.1145/3342280.3342324">[PDF]</a></h5>
-        <h5>Mukhtiar Ahmad, Wasiq Noor Ahmad Qasmi, Syed Usman Jafri, Ridah Naseem, <b>Muhammad Ali Nawazish</b>, Muhammed Azam Ikram, Zartash Uzmi, and Zafar Ayyub Qazi.</h5>
-        <h5 class="text-danger">SIGCOMM 2019 (Poster)</h5>
+        <h5 class="text-success">Neutrino: A Fast and Consistent Edge-based Cellular Control Plane  <a target="_blank" href="https://ieeexplore.ieee.org/document/9885031">[PDF]</a></h5>
+        <h5>Mukhtiar Ahmad, <b>Muhammad Ali Nawazish</b>, Taimoor Tariq, Syed Usman Jafri, Adnan Abbass, Syeda Mashal Abbas Zaidi, Basit Iqbal, Zartash Uzmi, Zafar Ayyub Qazi</h5>
+        <h5 class="text-danger">IEEE/ACM Transactions on Networking, 2022</h5>
       </div>
-    </di>
+      <br>
+      <div id="pub3">
+        <h5 class="text-success">A Low Latency and Cellular Control Plane <a target="_blank" href="https://dl.acm.org/doi/10.1145/3387514.3406218">[PDF]</a></h5>
+        <h5>Mukhtiar Ahmad, Syed Usman Jafri, Azam Ikram, Wasiq Noor Ahmad Qasmi, <b>Muhammad Ali Nawazish</b>, Zartash Uzmi, and Zafar Ayyub Qazi.</h5>
+        <h5 class="text-danger">ACM SIGCOMM 2020</h5>
+      </div>
+      <br>
+      <div id="pub4">
+        <h5 class="text-success">Fast EPC: A Low Latency Cellular Control Plane <a target="_blank" href="https://dl.acm.org/doi/10.1145/3342280.3342324">[PDF]</a></h5>
+        <h5>Mukhtiar Ahmad, Wasiq Noor Ahmad Qasmi, Syed Usman Jafri, Ridah Naseem, <b>Muhammad Ali Nawazish</b>, Muhammed Azam Ikram, Zartash Uzmi, and Zafar Ayyub Qazi.</h5>
+        <h5 class="text-danger">ACM SIGCOMM 2019 (Poster)</h5>
+      </div>
+      <br>
+    </div>
 
+    <hr>
 
+    <h3 id="projects">
+      Projects
+    </h3>
+
+    <div class="projects h5">
+      <div id="proj1">
+        <a target="_blank" href="https://github.com/nsgLUMS/cellclone">Cellclone</a> - I worked on designing a new control plane to accelerate edge applications in cellular networks. The proposed design masks failures and stragglers in control-plane functions. I implemented the active-replication algorithm and evaluated it with other proposed systems under failure and straggler scenarios.
+      </div>
+      <div id="proj2">
+        <a target="_blank" href="https://github.com/nsgLUMS/neutrino">Neutrino</a> - At LUMS, I worked on designing and developing a new cellular control plane for low-latency applications. I focused on implementing the cellular data plane with <a target="_blank" href="https://github.com/omec-project/upf">intel's UPF</a> to evaluate the performance of our improved control plane design.    
+      </div>
+      <div id="proj3">
+        <a target="_blank" href="https://ignite.org.pk/eassessment-system-for-c-c-programming-assignments-2/">PAAS</a> - At COMSATS, Lahore, I worked on developing an e-assessment system for C/C++ programming assignments. 
+        I implemented a module that generates control-flow graphs of C/C++ functions and compares their structural similarities. I also worked on developing a string-based plagiarism detection system that uses <a href="https://ieeexplore.ieee.org/document/5390135" target="_blank">Rabin-Karp greedy sting tiling</a> algorithm.
+        The <a target="_blank" href="https://ignite.org.pk/">Govt. of Pakistan</a> funded this research project.
+      </div>
+    </div>
   </div>
 
 </body>
